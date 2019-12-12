@@ -1,23 +1,20 @@
-# rollup-starter-lib
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/rollup/rollup-starter-lib.svg)](https://greenkeeper.io/)
+# rollup-pangu
 
 This repo contains a bare-bones example of how to create a library using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
 
-We're creating a library called `how-long-till-lunch`, which usefully tells us how long we have to wait until lunch, using the [ms](https://github.com/zeit/ms) package:
-
-```js
-console.log('it will be lunchtime in ' + howLongTillLunch());
-```
+## Features
+* Babel support for both source code and test code
+* Eslint
+* An example library with test  
 
 ## Getting started
 
 Clone this repository and install its dependencies:
 
 ```bash
-git clone https://github.com/rollup/rollup-starter-lib
-cd rollup-starter-lib
-npm install
+git clone https://github.com/paiyou-network/rollup-pangu
+cd rollup-pangu
+yarn
 ```
 
 `npm run build` builds the library to `dist`, generating three files:
