@@ -1,4 +1,7 @@
 {
+  "globals": {
+    "global": true
+  },
   "extends": "eslint:recommended",
   "rules": {
     "semi": ["error", "never"],
